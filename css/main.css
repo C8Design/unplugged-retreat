@@ -105,13 +105,18 @@ ol {
 }
 
 a{
-  color: #e2e3ed;
+  color: #800080;
   text-decoration: none;
+}
+
+h1 {
+  color: #008000;
 }
 
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  color: #ffd700;
 }
 
 h3,
@@ -119,11 +124,13 @@ h4 {
   font-family: 'Poppins', sans-serif;
   margin: 20px 0;
   font-size: 1.25em;
+  color: #ff00ff;
 }
 
 p {
   font-size: .875em;
   line-height: 1.285;
+  color: #ff7f50;
 }
 
 img {
@@ -152,6 +159,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #00FFFF;
 }
 
 header {
@@ -227,6 +235,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #000000;
 }
 
 /* Aside */
@@ -236,6 +245,33 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #0000ff;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Features */
@@ -244,6 +280,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #008080;
 }
 
 .features h2 {
@@ -272,6 +309,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #B22222;
 }
 
 .reviews h2 {
