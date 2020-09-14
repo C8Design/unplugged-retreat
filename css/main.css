@@ -234,6 +234,7 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 5px;
 }
 
 footer .copyright {
