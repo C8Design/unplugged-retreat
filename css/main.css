@@ -103,9 +103,11 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-a{
+a {
   color: #e2e3ed;
   text-decoration: none;
 }
@@ -114,6 +116,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
 
 h3,
@@ -340,7 +343,7 @@ input[type=button] {
 .features p {
   text-align: center;
   margin: 0;
-  margin-top: 40px;
+  margin-top: 5px;
 }
 
 
@@ -432,16 +435,6 @@ input[type=button] {
 .faq-content h4 {
   line-height: 1.333;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
@@ -579,6 +572,11 @@ input[type=button] {
   }
 
   /* Hero area */
+
+  .hero-area {
+    min-height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -616,6 +614,10 @@ input[type=button] {
     width: 62%;
   }
 
+  .features i {
+    margin-bottom: 30px;
+  }
+
   /* Reviews */
   .reviews article {
     display: flex;
@@ -626,6 +628,7 @@ input[type=button] {
     width: 85%;
   }
 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
@@ -659,6 +662,11 @@ input[type=button] {
 
   footer p {
     line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
@@ -748,7 +756,7 @@ input[type=button] {
   /* Hero */
   .hero-area h1 {
     font-size: 3.375em;
-    width: 60%;
+    width: 80%;  /* prefer 60% vs skillcrush 80% */
   }
 
   /* Aside */
